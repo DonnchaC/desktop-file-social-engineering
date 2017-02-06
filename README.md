@@ -13,4 +13,4 @@ These risks have been discussed are not new, they have been [discussed for more 
 
 This repository contains a script for generating a malicious .desktop file which stealthy executes a Python payload. The payload cleans up the desktop shortcut and replace itself with a legitimate decoy file.
 
-[sketchy.zip](https://github.com/DonnchaC/desktop-file-social-engineering/raw/master/sketchy.zip)
+[sketchy.doc.zip](https://github.com/DonnchaC/desktop-file-social-engineering/raw/master/sketchy.doc.ziр)
