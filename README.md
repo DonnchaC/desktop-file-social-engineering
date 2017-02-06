@@ -1,7 +1,7 @@
 Security Risks of .desktop Shortcuts
 ====================================
 
-After reading a [Reddit post](https://www.reddit.com/r/linux/comments/gbgoh/til_one_can_drop_any_selected_text_onto_gnome/) by "wander_homer", I was reminded to look at how .desktop shortcut files are handled on modern Linux systems.
+After reading a [Reddit post](https://www.reddit.com/r/linux/comments/5r6va0/how_to_easily_trick_file_manager_users_to_execute/) by "wander_homer", I was reminded to look at how .desktop shortcut files are handled on modern Linux systems.
 
 A .desktop file which has the executable bit set will be parsed specially by file managers such as Nautilus. Rather than showing the true filename and file type Nautilus will display the application name and icon which is specified in the .desktop file. This allows for a malicious .desktop shortcut to easily masquerade as a safe file type.
 
